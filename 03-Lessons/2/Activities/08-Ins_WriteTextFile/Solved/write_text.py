@@ -2,7 +2,7 @@
 import os
 
 # Specify the file to write to
-file_outpath = os.path.join("..", "output", "Employee_Data.txt")
+file_outpath = os.path.join("..", "output1", "Employee_Data1.txt")
 
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(file_outpath, 'w') as textfile:

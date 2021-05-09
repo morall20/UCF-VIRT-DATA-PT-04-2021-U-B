@@ -6,6 +6,8 @@ import csv
 
 csvpath = os.path.join('..', 'Resources', 'accounting.csv')
 
+csvpath="../Resources/accounting.csv"
+print(csvpath)
 # # Method 1: Plain Reading of CSV files
 # with open(csvpath, 'r') as file_handler:
 #     lines = file_handler.read()
@@ -29,3 +31,4 @@ with open(csvpath) as csvfile:
     # Read each row of data after the header
     for row in csvreader:
         print(row)
+print("hello read")
